@@ -190,3 +190,77 @@ border: 1px solid rgba(49, 207, 49, 0.774);}
     height: 1px;
     background-color: rgba(167, 153, 153, 0.603);
 }
+
+
+/* box related styles */
+.techwave-container{
+    margin-top: 100px;
+    background-color: #230E3D;
+    padding: 20px 170px 20px 170px;
+}
+.techwave-container h3{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+
+}
+.box-container{
+    gap: 30px;
+}
+
+.box{
+    font-weight: 600px;
+    color: #ffffff;
+}
+.box-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,240px);
+}
+#sidebar{
+    grid-row: span 2;
+    background-color: #351165;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 30px 0 30px;
+    gap:10px;
+}
+#sidebar2{
+    grid-column: span 2;
+    gap: 30px;
+    background-color: #351165;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 30px 0 30px;
+    gap:10px;
+}
+
+#sidebar3{
+    grid-row: span 1;
+    background-color: #351165;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 30px 0 30px;
+    gap:10px;
+}
+.side-desc{
+    margin: 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.63);
+}
+.side-title{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
