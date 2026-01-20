@@ -3,101 +3,135 @@
 
 
 
-.inter-font {
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #1A0B2E;
+  max-width: 1600px;
+  margin: auto;
 }
-/* shared styles */
-.display-flex{
-    display: flex;
-}
-
-.text-color{
-    color: #ffffff;
-}
-.bg-color{
-    background-color: #412567;
-}
-/* header styles */
-
-
-/* navbar related styles */
-.brand{
-    color: #ffffff;
+.display-flex{display:flex}
+.bg-color{background:#412567}
+.text-color{color:#fff}
+header{
+    padding-bottom:60px
 }
 .navbar{
-    justify-content: space-between;
-    align-items: center;
+max-width:1600px;
+margin:auto;
+padding:10px;
+display: flex;
+justify-content:space-between;
+align-items:center;
 }
-
-.nav-item{
-    list-style: none;
-    margin-right: 30px;
-}
-
-.nav-link{
-    text-decoration: none;
-    color: #ffffff;
+.brand{
+    color:#fff;
+    font-size:1.5rem;
+    font-weight:700
 }
 .nav-links{
-    width: 218px;
-    height: 19px;
-    gap: 32px;
-    color: #ffffff;
-    font-size: 16;
-    font-weight: 500;
+    gap:32px
+}
+.nav-item{
+    list-style:none;    
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+}
+.nav-texts{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.hamburger{
+    padding: 15px;
+    display: none;
 }
 
+/* banner */
 .btn-banner{
-    background-color: #FB09B4;
-    color: #ffffff;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
-    padding-left: 16px;
-    padding-right: 40px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 10000px;
+background: linear-gradient(45deg, rgb(202, 202, 69), rgb(218, 53, 149), rgb(56, 56, 185));
+color:#fff;
+padding:12px 32px;
+border:none;
+border-radius:9999px;
+font-weight:600;
+cursor:pointer;
+}
+.banner{
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
-.navbar, .banner{
-    max-width: 1440px;
-    margin: 0 auto;
+.top-img{
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;    
+    width: 350px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center; 
 }
-
-/* banner related styles */
+.new{
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(45, 214, 45);
+    position: absolute;
+    top: 1%;
+    left: 70%;
+}
 .banner-content{
-    max-width: 550px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 101px 525px;
-    background-image: url(assets/hero-bg.png);
+    margin-top: 20px;
 }
-/* .banner-image2{
-    padding-top: -100px;
-} */
-
-.banner-title h2{
-    font-weight: 800;
-    font-size: 3.75rem;
-    color: #ffffff;
+.ban-title{
+font-size: 60px;
+font-weight: 800;
+color: white;
+margin: 0 0 10px 0;
 }
-.banner-title p {
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 400px;
-    padding-top: -100px;
+.banner-content p{
+font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.705);
 }
-.btn-banner1{
-    background-color: #F7E93F;
-    color: #ffffff;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 48px;
-    padding-right: 20px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 10000px;
+.banner-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
+.ban-btn1{
+    
+    display: flex;justify-content: center;align-items: center;gap: 5px;
+     padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(45deg,rgb(202, 202, 69),rgb(218, 53, 149),rgb(56, 56, 185));
+}
+.ban-btn2{
+    display: flex;justify-content: center;align-items: center;gap: 5px;
+     padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+background-color: black;
+color: rgba(49, 207, 49, 0.774);
+border: 1px solid rgba(49, 207, 49, 0.774);}
+/* main section */
