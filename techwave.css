@@ -135,3 +135,58 @@ background-color: black;
 color: rgba(49, 207, 49, 0.774);
 border: 1px solid rgba(49, 207, 49, 0.774);}
 /* main section */
+
+/* Podcast related styles */
+.podcast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.podcast-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    text-align: center;
+    width: 70%;
+}
+.pod-title{
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+}
+.pod-desc{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.733);
+}
+.podcast-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.card-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.podcast-number{
+    font-size: 40px;
+    color: rgba(49, 207, 49, 0.774);
+}
+.pod-tit{
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.733);
+}
+.pod-hr{
+    width: 100%; 
+    height: 1px;
+    background-color: rgba(167, 153, 153, 0.603);
+}
